@@ -1,20 +1,34 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HelloWorld
 {
+
+    class Car
+    {
+        public Car()
+        {
+        }
+
+        uint Wheels;
+        uint Doors;
+        string Color;
+
+        void Go()
+        {
+            Console.WriteLine("Ok");
+        }
+    }
+
+
     class Program
     {
         static void Main(string[] args)
         {
-            for (int i = 3; i > 0; i--)
-            {
-                Console.WriteLine(i);
-            }
-            Console.WriteLine("Hello, World!");
+            var car = new HelloWorld.Car();
+
+            string str = "Hello";
+            str = str.Insert(0, "World");
+            Console.WriteLine(str);
         }
     }
 }
