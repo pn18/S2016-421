@@ -5,6 +5,13 @@
 
 The following is a general list of do's and don'ts to remember when designing software.
 
+## Style
+
+* DO use Pascal- or OO-casing.  That is, capitalize the first letter of every word (`DateTime`, `StreamWriter`, `EntryPointNotFoundException`, ...).
+* DO NOT capitalize all the letters of an abreviation; `HttpRequest` not `HTTPRequest`.
+* DO put each class/struct/enum into it's own file.
+* DO use sub-directories to reflect nested namespaces.  For example the class `MyNamespace.MyTech.MyClass` should be located in the folder ./MyNamespace/MyTech/MyClass.
+
 ## Namespaces
 
 * DO use namespaces.
@@ -16,6 +23,7 @@ The following is a general list of do's and don'ts to remember when designing so
 
 ## Classes
 
-* Give classes names that describe what they are.  
+* Give classes names that describe what they are.  For instance, guess what the `Car` defines.
 * DO NOT give classes names that are overly generic; `Object` and `Element` for example.  Instead consider prefixing the class name with a type, like `JsonObject` or `XElement`.
+
 
