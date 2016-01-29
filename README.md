@@ -1,5 +1,17 @@
 # S2016-421 Object-Oriented Programming
 
+# Homework
+
+
+## Homework 1 - Due Feb. 3, 2016
+
+Create two or 3 classes that represent a real-world system or something or some subject you are familiar with or is of interest to you.
+Do not model a concept in computer science like a list or tree.
+Which parts of your system should be defines as Properties and which should be defined as Member Variables.
+What is the public interface (Member Functions) for your system?
+Don't forget to pick a sweet name for your default namespace. 
+
+Use the General Guidelines below.
 
 # General Guidelines for OOP
 
@@ -7,6 +19,7 @@ The following is a general list of do's and don'ts to remember when designing so
 
 ## Style
 
+* KISS: Keep it Simple, Stupid. (US Navy, 1960)
 * DO use Pascal- or OO-casing.  That is, capitalize the first letter of every word (`DateTime`, `StreamWriter`, `EntryPointNotFoundException`, ...).
 * DO NOT capitalize all the letters of an abreviation; `HttpRequest` not `HTTPRequest`.
 * DO put each class/struct/enum into it's own file.
@@ -25,5 +38,15 @@ The following is a general list of do's and don'ts to remember when designing so
 
 * Give classes names that describe what they are.  For instance, guess what the `Car` defines.
 * DO NOT give classes names that are overly generic; `Object` and `Element` for example.  Instead consider prefixing the class name with a type, like `JsonObject` or `XElement`.
+* DO NOT create kitchen-sink classes.  Use the __Single Responsibily Principle__: A class should have one and only one responsibilty.
 
+### Members
+* DO use member variables to represent an object's internal state.
+* DO NOT allow users to directly modify your classes member variables.  Mark them all as private.  
 
+### Methods
+* DO use methods to modify member variables (i.e. change the state of your object).
+* Only mark the methods that you want your users to call as public.  Everything else should be private.
+
+### Properties
+* DO use properties to represent observable characteristics of your class.
