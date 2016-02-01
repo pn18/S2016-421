@@ -15,6 +15,7 @@ namespace Oops
             Color = color;
 
             Tank = new GasTank(14.0);
+            Engine = new Engine(8000);
         }
 
         ~Car()
@@ -64,12 +65,13 @@ namespace Oops
             var gas = Tank.Consume(1.0);
             var accel = Engine.Combust(gas);
             speed += accel;
+
         }
 
         public void Stop()
         {
             speed = 0;
         }
-    
+
     }
 }

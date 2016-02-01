@@ -11,6 +11,7 @@ namespace Oops
         public GasTank(double capacity)
         {
             Capacity = capacity;
+            volume = capacity;
         }
 
         public double Capacity

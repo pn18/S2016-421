@@ -8,6 +8,11 @@ namespace Oops
 {
     class Engine
     {
+        public Engine(double maxRpm)
+        {
+            MaxRpm = maxRpm;
+        }
+
         public double MaxRpm
         {
             get;
@@ -15,6 +20,13 @@ namespace Oops
         }
 
         private double rpm;
+        public double Rpm
+        {
+            get
+            {
+                return rpm;
+            }
+        }
 
         public double Combust(double gas)
         {
@@ -24,8 +36,8 @@ namespace Oops
                 throw new Exception("Oh shit!");
             }
 
-            return rpm / 5.0;
+            return rpm / 250.0;
         }
-    
+
     }
 }
