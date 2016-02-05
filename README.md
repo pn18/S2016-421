@@ -24,6 +24,8 @@ The following is a general list of do's and don'ts to remember when designing so
 * DO NOT capitalize all the letters of an abreviation; `HttpRequest` not `HTTPRequest`.
 * DO put each class/struct/enum into it's own file.
 * DO use sub-directories to reflect nested namespaces.  For example, the class `MyNamespace.MyTech.MyClass` should be located in the folder `./MyNamespace/MyTech/MyClass`.
+* Use braces consistently.  
+* Prefer key words to built-in types; i.e. bool vs Boolean, int vs Int32, string vs. String, etc...
 
 ## Namespaces
 
@@ -44,9 +46,24 @@ The following is a general list of do's and don'ts to remember when designing so
 * DO use member variables to represent an object's internal state.
 * DO NOT allow users to directly modify your classes member variables.  Mark them all as private.  
 
+### Constructors, Destructors
+* DO NOT implement a destructor.
+* DO provide a constructor to initiazize invariant or non-defualt members.
+* DO use exceptions to prevent objects from being partially constructed.
+* DO NOT subvert the will of the user by replacing invalid constructor arguments with default values.  Throw an `InvalidArgumentException` instead.
+
 ### Methods
 * DO use methods to modify member variables (i.e. change the state of your object).
 * Only mark the methods that you want your users to call as public.  Everything else should be private.
 
 ### Properties
 * DO use properties to represent observable characteristics of your class.
+
+
+# Patterns
+
+The following is a list of design patterns we've discussed in class and some basic guidelines for each.
+
+## Factory Pattern
+
+
