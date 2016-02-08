@@ -2,6 +2,7 @@
 using Oops;
 using Oops.Foo;
 
+//using Oops.Auto;
 
 namespace HelloWorld
 {
@@ -9,7 +10,8 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            var car = new Car(2, "Red");
+            //var car = Oops.Auto.Chevrolet.Malibu();
+            var car = Oops.Auto.Chevrolet.Camaro;
 
             try
             {

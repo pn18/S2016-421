@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oops
+namespace Oops.Auto
 {
-    class Engine
+    public class Engine
     {
         public Engine(double maxRpm)
         {

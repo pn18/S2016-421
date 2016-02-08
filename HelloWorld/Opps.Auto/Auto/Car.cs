@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oops
+namespace Oops.Auto
 {
-    class Car
+    public class Car
     {
-        public Car(uint doors, string color)
+        internal Car(uint doors, string color)
         {
             Wheels = 4;
             Doors = doors;
@@ -65,7 +65,6 @@ namespace Oops
             var gas = Tank.Consume(1.0);
             var accel = Engine.Combust(gas);
             speed += accel;
-
         }
 
         public void Stop()
