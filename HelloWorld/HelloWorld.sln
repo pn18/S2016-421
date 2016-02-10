@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oops.Auto", "Opps.Auto\Oops.Auto.csproj", "{9E272FED-9632-4C85-83D2-199ABA2B8CC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oops.Music", "Oops.Music\Oops.Music.csproj", "{BFC8B8EA-3DAD-47B4-847C-990E9D91FC69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{E95BEA2D-FE90-4768-B8A4-9E3EEB5E3C93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9E272FED-9632-4C85-83D2-199ABA2B8CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E272FED-9632-4C85-83D2-199ABA2B8CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E272FED-9632-4C85-83D2-199ABA2B8CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC8B8EA-3DAD-47B4-847C-990E9D91FC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC8B8EA-3DAD-47B4-847C-990E9D91FC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC8B8EA-3DAD-47B4-847C-990E9D91FC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC8B8EA-3DAD-47B4-847C-990E9D91FC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95BEA2D-FE90-4768-B8A4-9E3EEB5E3C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95BEA2D-FE90-4768-B8A4-9E3EEB5E3C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95BEA2D-FE90-4768-B8A4-9E3EEB5E3C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95BEA2D-FE90-4768-B8A4-9E3EEB5E3C93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
