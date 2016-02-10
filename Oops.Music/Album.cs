@@ -5,7 +5,7 @@ namespace Oops.Music
 {
     public class Album
     {
-        Album()
+        public Album()
         {
             Songs = new ArrayList();
         }

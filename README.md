@@ -11,6 +11,12 @@ Which parts of your system should be defines as Properties and which should be d
 What is the public interface (Member Functions) for your system?
 Don't forget to pick a sweet name for your default namespace. 
 
+## Homework 2 - Due Feb. 15, 2016
+
+Implement a class heirachy using a base class and derived classes to implement a weapon for the Oops.Game.Player class.
+Think about what properties should be exposed through the base class interface, and what should be internal to the derived classes.
+As always, simpler is better - and follow the guidelines below.
+
 Use the General Guidelines below.
 
 # General Guidelines for OOP
