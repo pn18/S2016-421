@@ -27,7 +27,7 @@ The following is a general list of do's and don'ts to remember when designing so
 
 * KISS: Keep it Simple, Stupid. (US Navy, 1960)
 * DO use Pascal- or OO-casing.  That is, capitalize the first letter of every word (`DateTime`, `StreamWriter`, `EntryPointNotFoundException`, ...).
-* DO NOT capitalize all the letters of an abreviation; `HttpRequest` not `HTTPRequest`.
+* DO NOT capitalize all the letters of an abbreviation; `HttpRequest` not `HTTPRequest`.
 * DO put each class/struct/enum into it's own file.
 * DO use sub-directories to reflect nested namespaces.  For example, the class `MyNamespace.MyTech.MyClass` should be located in the folder `./MyNamespace/MyTech/MyClass`.
 * Use braces consistently.  
